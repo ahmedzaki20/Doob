@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doob</title>
+    <!-- Start css -->
+    <!-- Start normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- End normalize -->
+    <!-- Start Icon Css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- End Icon Css -->
+    <!-- Start Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End Google Fonts -->
+    <!-- Start Main css -->
+    <link rel="stylesheet" href="css/Main.css" />
+    <!-- End Main css -->
+    <!-- End css -->
+  </head>
+  <body>
+    <!-- Start Header -->
+    <div class="header">
+      <div class="container">
+        <img src="img/logo.png" alt="" />
+        <div class="menu">
+          <i class="fa fa-bars" onclick="listShow()"> </i>
+          <ul id="Nav-bar">
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About us.</li></a>
+            <a href=""><li>Portfolio.</li></a>
+            <a href=""><li>Blog</li></a>
+            <a href=""><li>Contact us.</li></a>
+          </ul>
+        </div>
+        <div class="contacts">
+          <select>
+            <option value="">En</option>
+            <option value="">Ar</option>
+            <option value="">Sp</option>
+          </select>
+          <a href="">Contact us<i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start about-us -->
+    <div class="about-us">
+      <div class="container">
+        <div class="text">
+          <h2>The Spirit of Digital Agency.</h2>
+          <p>
+            Vestibulum ac diam sit amet quam vehicula elementum amet est on dui.
+            Nulla porttitor accumsan tincidunt
+          </p>
+          <div class="get-more">
+            <a href="" class=""> More About us</a>
+            <a href="">Get in Touch.</a>
+          </div>
+        </div>
+        <div class="img">
+          <img src="img/header.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End about-us -->
+    <!-- Start our-company -->
+    <div class="our-company">
+      <div class="container">
+        <div class="img">
+          <img src="img/our-company.png" alt="" />
+        </div>
+        <div class="text">
+          <h4>OUR COMPANY</h4>
+          <h2>Some Fine Words About Us</h2>
+          <p>
+            Vestibulum ac diam sit amet quam vehicula elementum amet est on dui.
+            Nulla porttitor accumsan tincidunt.Vestibulum ac diam sit amet. Quam
+            vehicula elementum amet est on dui. Nulla porttitor accumsan
+            tincidunt.
+          </p>
+          <div class="arrows">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End our-company -->
+    <!-- Start our-work -->
+    <div class="our-work">
+      <div class="container">
+        <h2>See some of our Creative work.</h2>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img src="img/portfolio1 (7).jpg" />
+            <img src="img/portfolio1 (8).jpg" />
+            <img src="img/portfolio1 (9).jpg" />
+            <img src="img/portfolio1 (10).jpg" />
+            <img src="img/portfolio1 (11).jpg" />
+            <img src="img/portfolio1 (12).jpg" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img/portfolio1 (1).jpg" />
+            <img src="img/portfolio1 (2).jpg" />
+            <img src="img/portfolio1 (3).jpg" />
+            <img src="img/portfolio1 (4).jpg" />
+            <img src="img/portfolio1 (5).jpg" />
+            <img src="img/portfolio1 (6).jpg" />
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+        <a href="">See More of These.</a>
+      </div>
+    </div>
+    <!-- End our-work -->
+    <!-- Start our-news -->
+    <div class="our-news">
+      <div class="container">
+        <h3>BLOG STORIES</h3>
+        <div class="check">
+          <h2>Check Our News</h2>
+          <div class="arrows">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+        <div class="box-holder">
+          <div class="box">
+            <h3>New Adventure</h3>
+            <div class="date"></div>
+            <p>
+              Vestibulum ac diam sit amet quam vehicula elementum amet est on
+              dui. Nulla porttitor accumsan tincidunt.
+            </p>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+          <div class="box">
+            <h3>New Adventure</h3>
+            <div class="date"></div>
+            <p>
+              Vestibulum ac diam sit amet quam vehicula elementum amet est on
+              dui. Nulla porttitor accumsan tincidunt.
+            </p>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+          <div class="box">
+            <h3>New Adventure</h3>
+            <div class="date"></div>
+            <p>
+              Vestibulum ac diam sit amet quam vehicula elementum amet est on
+              dui. Nulla porttitor accumsan tincidunt.
+            </p>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End our-news -->
+    <!-- Start Contact-us -->
+    <div class="contact-us">
+      <div class="container">
+        <h4>CONTACT US</h4>
+        <h2>Get in Touch</h2>
+        <form action="">
+          <input
+            type="email"
+            name="Email"
+            class="Email"
+            placeholder="Your Email"
+          />
+          <input
+            type="text"
+            name="subject"
+            class="Subject"
+            placeholder="Subject"
+          />
+          <textarea name="" id="" placeholder="Message"></textarea>
+        </form>
+        <a href="">Send Message </a>
+      </div>
+    </div>
+    <!-- End Contact-us -->
+    <footer>
+      <h4>DOOB</h4>
+      <h2>CREATIVITY ABOVE</h2>
+      <ul class="nav">
+        <a href=""><li>Home</li></a>
+        <a href=""><li>About us.</li></a>
+        <a href=""><li>Portfolio.</li></a>
+        <a href=""><li>Blog</li></a>
+        <a href=""><li>Contact us.</li></a>
+      </ul>
+      <p>© 2019 - Doob,All Right Reserved</p>
+      <ul class="Social">
+        <li>
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fas fa-basketball-ball"></i></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script src="js/main.js"></script>
+</html>
